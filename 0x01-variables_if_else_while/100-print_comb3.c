@@ -8,13 +8,13 @@ int main(void)
 int d, k;
 for (d = '0'; d < '9'; d++)
 {
-for (k = d+1; k <= '9'; k++)
+for (k = d + 1; k <= '9'; k++)
 {
 if (k != d)
 {
 putchar(d);
 putchar(k);
-if (d == '0' && k == '9')
+if (d == '8' && k == '9')
 continue;
 putchar(',');
 putchar(' ');
