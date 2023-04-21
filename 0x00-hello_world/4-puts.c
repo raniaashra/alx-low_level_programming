@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main function to print the line in function
  * return 0
 */
