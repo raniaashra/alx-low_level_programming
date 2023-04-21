@@ -1,3 +1,8 @@
+#include <stdio.h>
+/**
+ * main - print all digit from 0
+ * REturn: Always 0 (Success)
+ */
 int main(void)
 {
     int x;
