@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <iostream>
 /**
  * main - function print line without printf and puts function
  * Return: 0
