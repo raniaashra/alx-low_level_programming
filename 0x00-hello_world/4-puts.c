@@ -1,8 +1,4 @@
 #include <stdio.h>
-/*
- * main function to print the line 
- * return 0
- */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
