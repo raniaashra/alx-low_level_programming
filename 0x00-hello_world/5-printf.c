@@ -1,7 +1,7 @@
-#include <stdio>
+#include <iostream>
 /**
  * main - use printf to print the line
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
