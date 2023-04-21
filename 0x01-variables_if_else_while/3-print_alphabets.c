@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print lower then upper letter
- * Return : Always (Success)
+ * Return : Always 0 (Success)
  */
 int main(void)
 {
@@ -10,5 +10,6 @@ for (ch = 'a'; ch <= 'z'; ch++)
 putchar(ch);
 for (ch = 'A'; ch <= 'Z'; ch++)
 putchar(ch);
+putchar('\n');
 return (0);
 }
