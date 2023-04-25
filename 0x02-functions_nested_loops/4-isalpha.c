@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha - chaecks alphabetic 
+ * _isalpha - chaecks alphabetic
  * @c: check if is alpha
  * Return: 1 if letter is lower and upper or 0 if other
  */
