@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * _islower - print letter lower
- * Return: Success
+ * @c: character is be chaecked
+ * Return: 1 for lowercase or 0 for else
  */
 int _islower(int c)
 {
