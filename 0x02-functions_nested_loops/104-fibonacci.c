@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-int i = 0;
+int i ;
 long j = 1, k = 2;
-while (i < 100)
+for (i = 0; i < 100; i++){
 {
 if (i == 0)
 printf("%ld", j);
@@ -18,7 +18,7 @@ else
 {
 k += j;
 j = k - j;
-printf(", %ld", k);
+printf(", %ld", j);
 }
 ++i;
 }
