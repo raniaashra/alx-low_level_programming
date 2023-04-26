@@ -8,7 +8,7 @@ int main(void)
 {
 int i ;
 long j = 1, k = 2;
-for (i = 0; i < 100; i++){
+for (i = 0; i < 100; i++)
 {
 if (i == 0)
 printf("%ld", j);
