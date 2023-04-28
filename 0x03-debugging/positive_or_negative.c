@@ -4,13 +4,12 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * positive_or_negative - check if it positive or zero or negative
- * @n: chaeck value
+ * main - check if it positive or zero or negative
  * Return: 0
  */
-void positive_or_negative(int n)
+int main(void)
 {
-
+int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
@@ -26,4 +25,5 @@ else
 {
 	printf("%d is negative\n", n);
 }
+return (0);
 }
