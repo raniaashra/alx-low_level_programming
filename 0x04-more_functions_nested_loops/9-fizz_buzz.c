@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * fizz_buzz - multiple by 3 fizz or multiple by 5 buzz
+ * main - multiple by 3 fizz or multiple by 5 buzz
  * Return: 0
  */
 int main(void)
