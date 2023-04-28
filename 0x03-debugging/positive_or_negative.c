@@ -4,12 +4,12 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - check if it positive or zero or negative
+ * positive_or_negative - check if it positive or zero or negative
+ * @n: chaeck value
  * Return: 0
  */
-int main(void)
+void positive_or_negative(int n)
 {
-int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
