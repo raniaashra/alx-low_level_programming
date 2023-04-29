@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+/**
+ * main - prime factor
+ * Return: 0
+ */
+int main(void)
+{
+long x, max;
+long number = 1231952;
+double square = sqrt(number);
+for (x = 1; x <= square; x++)
+{
+if (number % x == 0)
+{
+max = number / x;
+}
+}
+printf("%ld\n", max);
+return (0);
+}
