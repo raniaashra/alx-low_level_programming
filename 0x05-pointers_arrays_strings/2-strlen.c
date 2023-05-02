@@ -2,7 +2,7 @@
 /**
  * _strlen - return length of string
  * @s: character pointer
- * Return: Always
+ * Return: Success
  */
 int _strlen(char *s)
 {
@@ -12,5 +12,5 @@ while (*s != '\0')
 count++;
 s++;
 }
-return count;
+return (count);
 }
