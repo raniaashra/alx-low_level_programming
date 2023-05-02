@@ -18,5 +18,6 @@ for (c = i; c > 0; c--)
 {
 putchar(*s);
 s--;
-}putchar('\n');
+}
+putchar('\n');
 }
