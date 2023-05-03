@@ -16,7 +16,7 @@ i++;
 k++;
 }
 len = i - 1;
-for (l = 0; l <= lenl l++)
+for (l = 0; l <= len; l++)
 {
 if (l % 2 == 0)
 {
