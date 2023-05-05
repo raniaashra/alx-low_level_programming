@@ -14,7 +14,7 @@ int temp;
 for (i = 0; i < n--; i++)
 {
 temp = a[i];
-a[i] =a[n];
+a[i] = a[n];
 a[n] = temp;
 }
 }
