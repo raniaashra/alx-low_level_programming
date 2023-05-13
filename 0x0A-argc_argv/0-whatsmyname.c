@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * main - print name
- * @argc: int 
+ * @argc: int
  * @argv: char
- * Retrune: always 0
+ * Return: always 0
  */
 int main(int argc, char *argv[])
 {
