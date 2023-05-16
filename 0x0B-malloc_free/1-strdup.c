@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strdup = dublicate string
+ * _strdup - dublicate string
  * @str: string
  * Return: the string dublicate
  */
@@ -15,7 +15,7 @@ while (str[i])
 {
 i++;
 }
-s = malloc((sizeof(char) * i) + i);
+s = malloc((sizeof(char) * i)+i);
 if (s == NULL)
 return (NULL);
 while (a < i)
